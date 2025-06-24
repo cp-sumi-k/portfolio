@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
 
 const Hero = () => {
