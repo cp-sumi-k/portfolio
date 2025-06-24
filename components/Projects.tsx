@@ -1,6 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
-import { FiExternalLink, FiGithub } from 'react-icons/fi';
+import { FiExternalLink } from 'react-icons/fi';
 
 const Projects = () => {
   const projects = [

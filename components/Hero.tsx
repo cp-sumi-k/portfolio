@@ -17,7 +17,7 @@ const Hero = () => {
           />
         </div>
         <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-          Hi, I'm <span className="bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">Sumita Kevat</span>
+          Hi, I&apos;m <span className="bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">Sumita Kevat</span>
         </h1>
         <p className="text-xl md:text-2xl my-4">
           <span className="bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent font-semibold">

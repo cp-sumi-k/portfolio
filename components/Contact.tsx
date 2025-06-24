@@ -30,7 +30,7 @@ const Contact = () => {
       } else {
         setError(data.message || 'Something went wrong.');
       }
-    } catch (err) {
+    } catch {
       setError('Something went wrong.');
     } finally {
       setLoading(false);
@@ -42,7 +42,7 @@ const Contact = () => {
       <div className="max-w-xl mx-auto text-center">
         <h2 className="text-4xl font-bold mb-4">Get In Touch</h2>
         <p className="text-gray-400 mb-8">
-          I'm currently open to new opportunities. <br />
+          I&apos;m currently open to new opportunities. <br />
           If you have a project in mind, or just want to say hi, feel free to reach out!
         </p>
       </div>

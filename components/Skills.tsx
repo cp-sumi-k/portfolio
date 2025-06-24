@@ -1,5 +1,3 @@
-import { FaTools } from 'react-icons/fa';
-
 const skills = [
   {
     category: 'Cloud',
