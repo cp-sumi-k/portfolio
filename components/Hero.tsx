@@ -6,16 +6,6 @@ const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center text-center bg-gray-900">
       <div className="max-w-4xl mx-auto px-4">
-        <div className="flex justify-center mb-8">
-          <Image
-            src="/sumita.jpg"
-            alt="Sumita Kevat"
-            width={160}
-            height={160}
-            className="rounded-lg border-4 border-blue-600 shadow-lg object-cover"
-            priority
-          />
-        </div>
         <h1 className="text-5xl md:text-7xl font-bold leading-tight">
           Hi, I&apos;m <span className="bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">Sumita Kevat</span>
         </h1>
